@@ -1,0 +1,12 @@
+#include <iostream>
+#include "mancala.h"
+#include "game.h"
+using namespace std;
+using namespace main_savitch_14;
+
+int main(){
+Mancala stonegame;
+stonegame.play();
+
+return 0;
+}
